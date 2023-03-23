@@ -1,0 +1,141 @@
+.content_j {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.content_j h5 {
+    margin-bottom: 9px;
+}
+
+.content_i {
+    padding-top: 130px;
+}
+
+.nav-item a {
+    cursor: pointer;
+}
+
+.lbl_data {
+    font-weight: normal;
+    font-style: italic;
+}
+
+#container.calendar-container {
+    display: block;
+    background: #FFFFFF;
+    box-shadow: 0 2px 48px 0 rgb(0 0 0 / 10%);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+@media (min-width: 500px) and (max-width: 575px) {
+    .j_xs{
+        display: none;
+    }
+    .j_sm{
+        display: none;
+    }
+    .j_md{
+        display: none;
+    }
+    .j_lg{
+        display: none;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+    .j_xs{
+        display: block;
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+    }
+    .j_sm{
+        display: none;
+    }
+    .j_md{
+        display: none;
+    }
+    .j_lg{
+        display: none;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .j_xs{
+        display: none;
+    }
+    .j_sm{
+        display: block;
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+    }
+    .j_md{
+        display: none;
+    }
+    .j_lg{
+        display: none;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .j_xs{
+        display: none;
+    }
+    .j_sm{
+        display: none;
+    }
+    .j_md{
+        display: block;
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+    }
+    .j_lg{
+        display: none;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .j_xs{
+        display: none;
+    }
+    .j_sm{
+        display: none;
+    }
+    .j_md{
+        display: none;
+    }
+    .j_lg{
+        display: block;
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+    }
+}
